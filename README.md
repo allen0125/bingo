@@ -1,0 +1,2 @@
+# bingo
+lgtm.one repo
