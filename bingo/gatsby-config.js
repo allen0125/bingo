@@ -31,4 +31,9 @@ module.exports = {
       },
     },
   ],
+},
+{
+  "cli": {
+      "packageManager": "yarn"
+  }
 }
