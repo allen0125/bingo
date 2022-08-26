@@ -5,6 +5,9 @@ module.exports = {
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
+  "cli": {
+      "packageManager": "yarn"
+  },
   plugins: [
     `gatsby-plugin-image`,
     {

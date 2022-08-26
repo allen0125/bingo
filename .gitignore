@@ -53,11 +53,7 @@ __diff_output__/
 .eslintcache
 scripts/.env
 
-# lock files
-yarn.lock
 package-lock.json
-# ignore any lock file other than main lock file
-!/yarn.lock
 
 # starters are special; we want to persist the lock files
 !starters/*/package-lock.json
