@@ -1,9 +1,8 @@
-// Step 1: Import React
 import * as React from 'react';
 import axios from "axios";
+import "../components/index.css"
 
-// Step 2: Define your component
-const baseURL = "https://ip.lgtm.one/rand";
+const baseURL = "https://ip.lgtm.one/roll";
 
 const IndexPage = () => {
   const [post, setPost] = React.useState(null);
@@ -18,18 +17,18 @@ const IndexPage = () => {
 
   return (
     <main>
-      <div>
-        <h1>Welcome to my LGTM site!</h1>
-        <img src={post.img_url}></img>
-        <div>{post.markdown_url}</div>
+      <div class="horizontal">
+        <div class="demo-2-item">
+          <h1 align="center">Welcome to my LGTM site!</h1>
+          <img class="demo-img" src={post.img_url}></img>
+          <div align="center">{post.markdown_url}</div>
+        </div>
       </div>
     </main >
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
 export const Head = () => <title>LGTM Home Page</title>
 
 
-// Step 3: Export your component
 export default IndexPage
